@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url("https://s2.glbimg.com/lMKi121qPBob_sVWzWb6YxkTBL8=/e.glbimg.com/og/ed/f/original/2019/11/14/sky-night-milky-way-cosmos-atmosphere-space-darkness-galaxy-meteor-nebula-outer-space-astronomy-stars-universe-milkyway-nightsky-astrophotography-cosmic-astronomical-object-meteoroid-537393.jpg");
+    background-size:100%;
+    background-color: black;
+padding: 20px ;
+}
+
+.box{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    
+}
+nav a:hover{
+    color:  #c78c19;
+    text-decoration: underline;
+
+}
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+padding: 50px 0;
+}
+.produtos li:hover{
+    border-color:  #c78c19;
+    color:  #c78c19;
+    
+}
+.produtos li:hover h2{
+    font-size: 34px ;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 20px ;
+}
+.produtos li:active{
+    border: 3px solid red;
+    color: black;
+}
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.descrição{
+    font-size: 18px;
+}
+.produto-preço{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+footer{
+    text-align: center;
+    background: url("./bg.jpg");
+    padding: 40px 0;
+}
+.copyright{
+    color: #cccc;
+    background-size: cover;
+    font-size: 20px;
+    margin-top: 20px;
+}
